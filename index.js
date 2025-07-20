@@ -13,7 +13,7 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 mongoose.connect(
-  `mongodb+srv://${username}:${password}@cluster0.xmaz4v0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`,
+  `mongodb+srv://<MONGODB_USERNAME>:<db_password>@cluster0.djk1cnu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`,
   {
     serverSelectionTimeoutMS: 5000,
   }
